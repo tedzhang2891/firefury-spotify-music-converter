@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Enter License Code"; ObjectID = "3"; */
+"3.title" = "ライセンスキーを入力";
+
+/* Class = "NSTextFieldCell"; title = "%@ is a shareware which requires a paid license to unlock all the features. "; ObjectID = "8"; */
+"8.title" = "%@ はシェアソフトです。試用制限を解除するには、ライセンスキーを購入する必要があります。";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "10"; */
+"10.title" = "ボックス";
+
+/* Class = "NSTextFieldCell"; title = "E-Mail :"; ObjectID = "12"; */
+"12.title" = "メールアドレス :";
+
+/* Class = "NSTextFieldCell"; title = "Product Key :"; ObjectID = "14"; */
+"14.title" = "ライセンスキー :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "enter your e-mail"; ObjectID = "16"; */
+"16.placeholderString" = "メールアドレスをご入力ください";
+
+/* Class = "NSTextFieldCell"; placeholderString = "enter your product key"; ObjectID = "18"; */
+"18.placeholderString" = "ライセンスキーをご入力ください";
+
+/* Class = "NSTextFieldCell"; title = "The UserID must match the one in your registration e-mail"; ObjectID = "20"; */
+"20.title" = "登録 ID はメールで受信された ID と必ず一致する必要があります";
+
+/* Class = "NSButtonCell"; title = "Buy Online"; ObjectID = "22"; */
+"22.title" = "オンラインで購入";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "24"; */
+"24.title" = "登録";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "26"; */
+"26.title" = "キャンセル";

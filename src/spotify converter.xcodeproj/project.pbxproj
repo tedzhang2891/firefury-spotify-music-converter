@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1086A35D21104D4F0004D5B7 /* ProductionAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1086A357211047AA0004D5B7 /* ProductionAuthentication.framework */; };
+		1086A35E21104D4F0004D5B7 /* ProductionAuthentication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1086A357211047AA0004D5B7 /* ProductionAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1086A3A62110590E0004D5B7 /* history_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3922110590C0004D5B7 /* history_hover@2x.png */; };
+		1086A3A72110590E0004D5B7 /* history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3932110590C0004D5B7 /* history@2x.png */; };
+		1086A3A82110590E0004D5B7 /* historyGuide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3942110590C0004D5B7 /* historyGuide@2x.png */; };
+		1086A3A92110590E0004D5B7 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3952110590C0004D5B7 /* delete@2x.png */; };
+		1086A3AA2110590E0004D5B7 /* setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3962110590C0004D5B7 /* setting@2x.png */; };
+		1086A3AB2110590E0004D5B7 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3972110590C0004D5B7 /* dsa_pub.pem */; };
+		1086A3AC2110590E0004D5B7 /* delete_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3982110590C0004D5B7 /* delete_hover@2x.png */; };
+		1086A3AD2110590E0004D5B7 /* convert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3992110590C0004D5B7 /* convert@2x.png */; };
+		1086A3AE2110590E0004D5B7 /* buy_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A39A2110590C0004D5B7 /* buy_hover@2x.png */; };
+		1086A3AF2110590E0004D5B7 /* playlistGuide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A39B2110590C0004D5B7 /* playlistGuide@2x.png */; };
+		1086A3B02110590E0004D5B7 /* removeHistory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A39C2110590C0004D5B7 /* removeHistory@2x.png */; };
+		1086A3B12110590E0004D5B7 /* setting_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A39D2110590D0004D5B7 /* setting_hover@2x.png */; };
+		1086A3B22110590E0004D5B7 /* buy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A39E2110590D0004D5B7 /* buy@2x.png */; };
+		1086A3B32110590E0004D5B7 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A39F2110590D0004D5B7 /* add@2x.png */; };
+		1086A3B42110590E0004D5B7 /* add_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3A02110590D0004D5B7 /* add_hover@2x.png */; };
+		1086A3B52110590E0004D5B7 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3A12110590D0004D5B7 /* welcome.png */; };
+		1086A3B62110590E0004D5B7 /* removeHistory_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3A22110590D0004D5B7 /* removeHistory_hover@2x.png */; };
+		1086A3B72110590E0004D5B7 /* openHistory_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3A32110590D0004D5B7 /* openHistory_hover@2x.png */; };
+		1086A3B82110590E0004D5B7 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3A42110590D0004D5B7 /* logo.icns */; };
+		1086A3B92110590E0004D5B7 /* openHistory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3A52110590D0004D5B7 /* openHistory@2x.png */; };
+		1086A3C1211066D70004D5B7 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3BD211066D70004D5B7 /* INAppStoreWindow.m */; };
+		1086A3C2211066D70004D5B7 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3C0211066D70004D5B7 /* INWindowButton.m */; };
+		1086A3D9211066F90004D5B7 /* RSVerticallyCenteredTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3C4211066F20004D5B7 /* RSVerticallyCenteredTextFieldCell.m */; };
+		1086A3DA211066F90004D5B7 /* SystemComm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3C5211066F30004D5B7 /* SystemComm.m */; };
+		1086A3DB211066F90004D5B7 /* NSAlertSynchronousSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3C6211066F30004D5B7 /* NSAlertSynchronousSheet.m */; };
+		1086A3DC211066F90004D5B7 /* ProgressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3CB211066F60004D5B7 /* ProgressWindowController.m */; };
+		1086A3DD211066F90004D5B7 /* MGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3CC211066F60004D5B7 /* MGuideView.m */; };
+		1086A3DE211066F90004D5B7 /* DurationToStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3CE211066F60004D5B7 /* DurationToStringTransformer.m */; };
+		1086A3DF211066F90004D5B7 /* HistoryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3CF211066F70004D5B7 /* HistoryWindowController.m */; };
+		1086A3E0211066F90004D5B7 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3D2211066F80004D5B7 /* BackgroundView.m */; };
+		1086A3E1211066F90004D5B7 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3D3211066F80004D5B7 /* AppController.m */; };
+		1086A3E2211066F90004D5B7 /* MTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3D7211066F90004D5B7 /* MTableView.m */; };
+		1086A3E3211066F90004D5B7 /* PreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A3D8211066F90004D5B7 /* PreferenceWindowController.m */; };
+		1086A3EE2110670C0004D5B7 /* HistoryItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3E42110670B0004D5B7 /* HistoryItem.xib */; };
+		1086A3EF2110670C0004D5B7 /* HistoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3E62110670B0004D5B7 /* HistoryWindow.xib */; };
+		1086A3F02110670C0004D5B7 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3E82110670B0004D5B7 /* PreferenceWindow.xib */; };
+		1086A3F12110670C0004D5B7 /* ProgressWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3EA2110670B0004D5B7 /* ProgressWindow.xib */; };
+		1086A3F22110670C0004D5B7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3EC2110670C0004D5B7 /* MainWindow.xib */; };
+		1086A3F4211067170004D5B7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3F6211067170004D5B7 /* Credits.rtf */; };
+		1086A3F9211067470004D5B7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1086A3FB211067470004D5B7 /* Localizable.strings */; };
+		1086A403211176A70004D5B7 /* SpotifyAddWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1086A401211176A70004D5B7 /* SpotifyAddWindowController.m */; };
+		10C31476212BE05500432B37 /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C31475212BE05500432B37 /* DropView.m */; };
+		10CF1AB1211040A1000E2B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CF1AB0211040A1000E2B5D /* AppDelegate.m */; };
+		10CF1AB3211040A1000E2B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CF1AB2211040A1000E2B5D /* Assets.xcassets */; };
+		10CF1AB9211040A1000E2B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CF1AB8211040A1000E2B5D /* main.m */; };
+		10D3EBBB211C17A900E7E134 /* SpotifyAddWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D3EBBD211C17A900E7E134 /* SpotifyAddWindow.xib */; };
+		10D3EBC1211C1AB200E7E134 /* DecryptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D3EBC0211C1A9A00E7E134 /* DecryptCore.framework */; };
+		10D3EBC2211C1AB200E7E134 /* DecryptCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10D3EBC0211C1A9A00E7E134 /* DecryptCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		10D3EBC5211C216000E7E134 /* CheckboxTableHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3EBC4211C216000E7E134 /* CheckboxTableHeaderCell.m */; };
+		3861EC70D7D9E5C4F874DD28 /* Pods_spotify_converter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D46678C0CD7D972DCFF6A34 /* Pods_spotify_converter.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1086A35F21104D4F0004D5B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1086A35E21104D4F0004D5B7 /* ProductionAuthentication.framework in Embed Frameworks */,
+				10D3EBC2211C1AB200E7E134 /* DecryptCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		105065DC211AF242002A254E /* DropViewDelegateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropViewDelegateProtocol.h; sourceTree = "<group>"; };
+		1086A357211047AA0004D5B7 /* ProductionAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProductionAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1086A3922110590C0004D5B7 /* history_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "history_hover@2x.png"; path = "res/history_hover@2x.png"; sourceTree = "<group>"; };
+		1086A3932110590C0004D5B7 /* history@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "history@2x.png"; path = "res/history@2x.png"; sourceTree = "<group>"; };
+		1086A3942110590C0004D5B7 /* historyGuide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "historyGuide@2x.png"; path = "res/historyGuide@2x.png"; sourceTree = "<group>"; };
+		1086A3952110590C0004D5B7 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete@2x.png"; path = "res/delete@2x.png"; sourceTree = "<group>"; };
+		1086A3962110590C0004D5B7 /* setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting@2x.png"; path = "res/setting@2x.png"; sourceTree = "<group>"; };
+		1086A3972110590C0004D5B7 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = res/dsa_pub.pem; sourceTree = "<group>"; };
+		1086A3982110590C0004D5B7 /* delete_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete_hover@2x.png"; path = "res/delete_hover@2x.png"; sourceTree = "<group>"; };
+		1086A3992110590C0004D5B7 /* convert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "convert@2x.png"; path = "res/convert@2x.png"; sourceTree = "<group>"; };
+		1086A39A2110590C0004D5B7 /* buy_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buy_hover@2x.png"; path = "res/buy_hover@2x.png"; sourceTree = "<group>"; };
+		1086A39B2110590C0004D5B7 /* playlistGuide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playlistGuide@2x.png"; path = "res/playlistGuide@2x.png"; sourceTree = "<group>"; };
+		1086A39C2110590C0004D5B7 /* removeHistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "removeHistory@2x.png"; path = "res/removeHistory@2x.png"; sourceTree = "<group>"; };
+		1086A39D2110590D0004D5B7 /* setting_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "setting_hover@2x.png"; path = "res/setting_hover@2x.png"; sourceTree = "<group>"; };
+		1086A39E2110590D0004D5B7 /* buy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "buy@2x.png"; path = "res/buy@2x.png"; sourceTree = "<group>"; };
+		1086A39F2110590D0004D5B7 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add@2x.png"; path = "res/add@2x.png"; sourceTree = "<group>"; };
+		1086A3A02110590D0004D5B7 /* add_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add_hover@2x.png"; path = "res/add_hover@2x.png"; sourceTree = "<group>"; };
+		1086A3A12110590D0004D5B7 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = res/welcome.png; sourceTree = "<group>"; };
+		1086A3A22110590D0004D5B7 /* removeHistory_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "removeHistory_hover@2x.png"; path = "res/removeHistory_hover@2x.png"; sourceTree = "<group>"; };
+		1086A3A32110590D0004D5B7 /* openHistory_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "openHistory_hover@2x.png"; path = "res/openHistory_hover@2x.png"; sourceTree = "<group>"; };
+		1086A3A42110590D0004D5B7 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = res/logo.icns; sourceTree = "<group>"; };
+		1086A3A52110590D0004D5B7 /* openHistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "openHistory@2x.png"; path = "res/openHistory@2x.png"; sourceTree = "<group>"; };
+		1086A3BC211066D70004D5B7 /* INAppStoreWindowCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INAppStoreWindowCompatibility.h; path = INAppStoreWindow/INAppStoreWindowCompatibility.h; sourceTree = "<group>"; };
+		1086A3BD211066D70004D5B7 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INAppStoreWindow.m; path = INAppStoreWindow/INAppStoreWindow.m; sourceTree = "<group>"; };
+		1086A3BE211066D70004D5B7 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INAppStoreWindow.h; path = INAppStoreWindow/INAppStoreWindow.h; sourceTree = "<group>"; };
+		1086A3BF211066D70004D5B7 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INWindowButton.h; path = INAppStoreWindow/INWindowButton.h; sourceTree = "<group>"; };
+		1086A3C0211066D70004D5B7 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INWindowButton.m; path = INAppStoreWindow/INWindowButton.m; sourceTree = "<group>"; };
+		1086A3C3211066F10004D5B7 /* ProgressWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressWindowController.h; sourceTree = "<group>"; };
+		1086A3C4211066F20004D5B7 /* RSVerticallyCenteredTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSVerticallyCenteredTextFieldCell.m; sourceTree = "<group>"; };
+		1086A3C5211066F30004D5B7 /* SystemComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemComm.m; sourceTree = "<group>"; };
+		1086A3C6211066F30004D5B7 /* NSAlertSynchronousSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAlertSynchronousSheet.m; sourceTree = "<group>"; };
+		1086A3C7211066F30004D5B7 /* MTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTableView.h; sourceTree = "<group>"; };
+		1086A3C8211066F30004D5B7 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1086A3C9211066F40004D5B7 /* NSAlertSynchronousSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAlertSynchronousSheet.h; sourceTree = "<group>"; };
+		1086A3CA211066F50004D5B7 /* MGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGuideView.h; sourceTree = "<group>"; };
+		1086A3CB211066F60004D5B7 /* ProgressWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressWindowController.m; sourceTree = "<group>"; };
+		1086A3CC211066F60004D5B7 /* MGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGuideView.m; sourceTree = "<group>"; };
+		1086A3CD211066F60004D5B7 /* RSVerticallyCenteredTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSVerticallyCenteredTextFieldCell.h; sourceTree = "<group>"; };
+		1086A3CE211066F60004D5B7 /* DurationToStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DurationToStringTransformer.m; sourceTree = "<group>"; };
+		1086A3CF211066F70004D5B7 /* HistoryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryWindowController.m; sourceTree = "<group>"; };
+		1086A3D0211066F70004D5B7 /* PreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindowController.h; sourceTree = "<group>"; };
+		1086A3D1211066F70004D5B7 /* SystemComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemComm.h; sourceTree = "<group>"; };
+		1086A3D2211066F80004D5B7 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		1086A3D3211066F80004D5B7 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		1086A3D4211066F80004D5B7 /* HistoryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryWindowController.h; sourceTree = "<group>"; };
+		1086A3D5211066F80004D5B7 /* DurationToStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationToStringTransformer.h; sourceTree = "<group>"; };
+		1086A3D6211066F90004D5B7 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		1086A3D7211066F90004D5B7 /* MTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTableView.m; sourceTree = "<group>"; };
+		1086A3D8211066F90004D5B7 /* PreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindowController.m; sourceTree = "<group>"; };
+		1086A3E52110670B0004D5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HistoryItem.xib; sourceTree = "<group>"; };
+		1086A3E72110670B0004D5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HistoryWindow.xib; sourceTree = "<group>"; };
+		1086A3E92110670B0004D5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreferenceWindow.xib; sourceTree = "<group>"; };
+		1086A3EB2110670B0004D5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ProgressWindow.xib; sourceTree = "<group>"; };
+		1086A3ED2110670C0004D5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1086A3F5211067170004D5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1086A3FA211067470004D5B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1086A3FC2110674F0004D5B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1086A3FF211175BE0004D5B7 /* AddWindowControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddWindowControllerProtocol.h; sourceTree = "<group>"; };
+		1086A400211176A70004D5B7 /* SpotifyAddWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotifyAddWindowController.h; sourceTree = "<group>"; };
+		1086A401211176A70004D5B7 /* SpotifyAddWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyAddWindowController.m; sourceTree = "<group>"; };
+		10C31474212BE05500432B37 /* DropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		10C31475212BE05500432B37 /* DropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
+		10CF1AAC211040A1000E2B5D /* spotify converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spotify converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CF1AAF211040A1000E2B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10CF1AB0211040A1000E2B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10CF1AB2211040A1000E2B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10CF1AB7211040A1000E2B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CF1AB8211040A1000E2B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10CF1ABA211040A1000E2B5D /* spotify_converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = spotify_converter.entitlements; sourceTree = "<group>"; };
+		10D3EBBC211C17A900E7E134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SpotifyAddWindow.xib; sourceTree = "<group>"; };
+		10D3EBC0211C1A9A00E7E134 /* DecryptCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DecryptCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D3EBC3211C216000E7E134 /* CheckboxTableHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckboxTableHeaderCell.h; sourceTree = "<group>"; };
+		10D3EBC4211C216000E7E134 /* CheckboxTableHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckboxTableHeaderCell.m; sourceTree = "<group>"; };
+		661796CAC45BCD903C48D350 /* Pods-spotify converter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotify converter.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-spotify converter/Pods-spotify converter.debug.xcconfig"; sourceTree = "<group>"; };
+		9D46678C0CD7D972DCFF6A34 /* Pods_spotify_converter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spotify_converter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D428CEEE4F783EF164B33C3F /* Pods-spotify converter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotify converter.release.xcconfig"; path = "../Pods/Target Support Files/Pods-spotify converter/Pods-spotify converter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CF1AA9211040A1000E2B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D3EBC1211C1AB200E7E134 /* DecryptCore.framework in Frameworks */,
+				1086A35D21104D4F0004D5B7 /* ProductionAuthentication.framework in Frameworks */,
+				3861EC70D7D9E5C4F874DD28 /* Pods_spotify_converter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1086A38E211058D10004D5B7 /* plugin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = plugin;
+			sourceTree = "<group>";
+		};
+		1086A38F211058DA0004D5B7 /* distribution */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = distribution;
+			sourceTree = "<group>";
+		};
+		1086A390211058E20004D5B7 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				1086A3A02110590D0004D5B7 /* add_hover@2x.png */,
+				1086A39F2110590D0004D5B7 /* add@2x.png */,
+				1086A39A2110590C0004D5B7 /* buy_hover@2x.png */,
+				1086A39E2110590D0004D5B7 /* buy@2x.png */,
+				1086A3992110590C0004D5B7 /* convert@2x.png */,
+				1086A3982110590C0004D5B7 /* delete_hover@2x.png */,
+				1086A3952110590C0004D5B7 /* delete@2x.png */,
+				1086A3972110590C0004D5B7 /* dsa_pub.pem */,
+				1086A3922110590C0004D5B7 /* history_hover@2x.png */,
+				1086A3932110590C0004D5B7 /* history@2x.png */,
+				1086A3942110590C0004D5B7 /* historyGuide@2x.png */,
+				1086A3A42110590D0004D5B7 /* logo.icns */,
+				1086A3A32110590D0004D5B7 /* openHistory_hover@2x.png */,
+				1086A3A52110590D0004D5B7 /* openHistory@2x.png */,
+				1086A39B2110590C0004D5B7 /* playlistGuide@2x.png */,
+				1086A3A22110590D0004D5B7 /* removeHistory_hover@2x.png */,
+				1086A39C2110590C0004D5B7 /* removeHistory@2x.png */,
+				1086A39D2110590D0004D5B7 /* setting_hover@2x.png */,
+				1086A3962110590C0004D5B7 /* setting@2x.png */,
+				1086A3A12110590D0004D5B7 /* welcome.png */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		1086A391211058ED0004D5B7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		1086A3BB211066BF0004D5B7 /* INAppStoreWindow */ = {
+			isa = PBXGroup;
+			children = (
+				1086A3BE211066D70004D5B7 /* INAppStoreWindow.h */,
+				1086A3BD211066D70004D5B7 /* INAppStoreWindow.m */,
+				1086A3BC211066D70004D5B7 /* INAppStoreWindowCompatibility.h */,
+				1086A3BF211066D70004D5B7 /* INWindowButton.h */,
+				1086A3C0211066D70004D5B7 /* INWindowButton.m */,
+			);
+			name = INAppStoreWindow;
+			sourceTree = "<group>";
+		};
+		10CF1AA3211040A1000E2B5D = {
+			isa = PBXGroup;
+			children = (
+				1086A391211058ED0004D5B7 /* lib */,
+				1086A390211058E20004D5B7 /* res */,
+				1086A38F211058DA0004D5B7 /* distribution */,
+				1086A38E211058D10004D5B7 /* plugin */,
+				10CF1AAE211040A1000E2B5D /* spotify converter */,
+				10CF1AAD211040A1000E2B5D /* Products */,
+				982F31511812EF55F6D72CB7 /* Pods */,
+				A2E44BA081424EC0277AE5AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10CF1AAD211040A1000E2B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CF1AAC211040A1000E2B5D /* spotify converter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CF1AAE211040A1000E2B5D /* spotify converter */ = {
+			isa = PBXGroup;
+			children = (
+				1086A3FF211175BE0004D5B7 /* AddWindowControllerProtocol.h */,
+				1086A3FB211067470004D5B7 /* Localizable.strings */,
+				1086A3C8211066F30004D5B7 /* AppController.h */,
+				1086A3D3211066F80004D5B7 /* AppController.m */,
+				1086A3EC2110670C0004D5B7 /* MainWindow.xib */,
+				1086A3D6211066F90004D5B7 /* BackgroundView.h */,
+				1086A3D2211066F80004D5B7 /* BackgroundView.m */,
+				1086A3D5211066F80004D5B7 /* DurationToStringTransformer.h */,
+				1086A3CE211066F60004D5B7 /* DurationToStringTransformer.m */,
+				1086A3D4211066F80004D5B7 /* HistoryWindowController.h */,
+				1086A3CF211066F70004D5B7 /* HistoryWindowController.m */,
+				1086A3E62110670B0004D5B7 /* HistoryWindow.xib */,
+				1086A3E42110670B0004D5B7 /* HistoryItem.xib */,
+				1086A3CA211066F50004D5B7 /* MGuideView.h */,
+				1086A3CC211066F60004D5B7 /* MGuideView.m */,
+				1086A3C7211066F30004D5B7 /* MTableView.h */,
+				1086A3D7211066F90004D5B7 /* MTableView.m */,
+				1086A3C9211066F40004D5B7 /* NSAlertSynchronousSheet.h */,
+				1086A3C6211066F30004D5B7 /* NSAlertSynchronousSheet.m */,
+				1086A3D0211066F70004D5B7 /* PreferenceWindowController.h */,
+				1086A3D8211066F90004D5B7 /* PreferenceWindowController.m */,
+				1086A3E82110670B0004D5B7 /* PreferenceWindow.xib */,
+				1086A3C3211066F10004D5B7 /* ProgressWindowController.h */,
+				1086A3CB211066F60004D5B7 /* ProgressWindowController.m */,
+				1086A3EA2110670B0004D5B7 /* ProgressWindow.xib */,
+				1086A3CD211066F60004D5B7 /* RSVerticallyCenteredTextFieldCell.h */,
+				1086A3C4211066F20004D5B7 /* RSVerticallyCenteredTextFieldCell.m */,
+				1086A3D1211066F70004D5B7 /* SystemComm.h */,
+				1086A3C5211066F30004D5B7 /* SystemComm.m */,
+				1086A3BB211066BF0004D5B7 /* INAppStoreWindow */,
+				10CF1AAF211040A1000E2B5D /* AppDelegate.h */,
+				10CF1AB0211040A1000E2B5D /* AppDelegate.m */,
+				10CF1AB2211040A1000E2B5D /* Assets.xcassets */,
+				10CF1AB7211040A1000E2B5D /* Info.plist */,
+				10CF1AB8211040A1000E2B5D /* main.m */,
+				10CF1ABA211040A1000E2B5D /* spotify_converter.entitlements */,
+				1086A3F6211067170004D5B7 /* Credits.rtf */,
+				1086A400211176A70004D5B7 /* SpotifyAddWindowController.h */,
+				1086A401211176A70004D5B7 /* SpotifyAddWindowController.m */,
+				10D3EBBD211C17A900E7E134 /* SpotifyAddWindow.xib */,
+				105065DC211AF242002A254E /* DropViewDelegateProtocol.h */,
+				10D3EBC3211C216000E7E134 /* CheckboxTableHeaderCell.h */,
+				10D3EBC4211C216000E7E134 /* CheckboxTableHeaderCell.m */,
+				10C31474212BE05500432B37 /* DropView.h */,
+				10C31475212BE05500432B37 /* DropView.m */,
+			);
+			path = "spotify converter";
+			sourceTree = "<group>";
+		};
+		982F31511812EF55F6D72CB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				661796CAC45BCD903C48D350 /* Pods-spotify converter.debug.xcconfig */,
+				D428CEEE4F783EF164B33C3F /* Pods-spotify converter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2E44BA081424EC0277AE5AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10D3EBC0211C1A9A00E7E134 /* DecryptCore.framework */,
+				9D46678C0CD7D972DCFF6A34 /* Pods_spotify_converter.framework */,
+				1086A357211047AA0004D5B7 /* ProductionAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CF1AAB211040A1000E2B5D /* spotify converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CF1ABD211040A1000E2B5D /* Build configuration list for PBXNativeTarget "spotify converter" */;
+			buildPhases = (
+				CF4864BD57ABE3AE133E6904 /* [CP] Check Pods Manifest.lock */,
+				10CF1AA8211040A1000E2B5D /* Sources */,
+				10CF1AA9211040A1000E2B5D /* Frameworks */,
+				10CF1AAA211040A1000E2B5D /* Resources */,
+				64DD9722C207E477ACB63EEC /* [CP] Embed Pods Frameworks */,
+				1086A35F21104D4F0004D5B7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spotify converter";
+			productName = "spotify converter";
+			productReference = 10CF1AAC211040A1000E2B5D /* spotify converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10CF1AA4211040A1000E2B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = firefury;
+				TargetAttributes = {
+					10CF1AAB211040A1000E2B5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 10CF1AA7211040A1000E2B5D /* Build configuration list for PBXProject "spotify converter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10CF1AA3211040A1000E2B5D;
+			productRefGroup = 10CF1AAD211040A1000E2B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CF1AAB211040A1000E2B5D /* spotify converter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10CF1AAA211040A1000E2B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1086A3F22110670C0004D5B7 /* MainWindow.xib in Resources */,
+				1086A3B12110590E0004D5B7 /* setting_hover@2x.png in Resources */,
+				1086A3AC2110590E0004D5B7 /* delete_hover@2x.png in Resources */,
+				10CF1AB3211040A1000E2B5D /* Assets.xcassets in Resources */,
+				1086A3B82110590E0004D5B7 /* logo.icns in Resources */,
+				1086A3B72110590E0004D5B7 /* openHistory_hover@2x.png in Resources */,
+				1086A3AA2110590E0004D5B7 /* setting@2x.png in Resources */,
+				1086A3B52110590E0004D5B7 /* welcome.png in Resources */,
+				1086A3A72110590E0004D5B7 /* history@2x.png in Resources */,
+				1086A3F02110670C0004D5B7 /* PreferenceWindow.xib in Resources */,
+				1086A3A82110590E0004D5B7 /* historyGuide@2x.png in Resources */,
+				1086A3F12110670C0004D5B7 /* ProgressWindow.xib in Resources */,
+				10D3EBBB211C17A900E7E134 /* SpotifyAddWindow.xib in Resources */,
+				1086A3EE2110670C0004D5B7 /* HistoryItem.xib in Resources */,
+				1086A3B02110590E0004D5B7 /* removeHistory@2x.png in Resources */,
+				1086A3B22110590E0004D5B7 /* buy@2x.png in Resources */,
+				1086A3EF2110670C0004D5B7 /* HistoryWindow.xib in Resources */,
+				1086A3AF2110590E0004D5B7 /* playlistGuide@2x.png in Resources */,
+				1086A3AD2110590E0004D5B7 /* convert@2x.png in Resources */,
+				1086A3AB2110590E0004D5B7 /* dsa_pub.pem in Resources */,
+				1086A3F4211067170004D5B7 /* Credits.rtf in Resources */,
+				1086A3B32110590E0004D5B7 /* add@2x.png in Resources */,
+				1086A3B62110590E0004D5B7 /* removeHistory_hover@2x.png in Resources */,
+				1086A3F9211067470004D5B7 /* Localizable.strings in Resources */,
+				1086A3AE2110590E0004D5B7 /* buy_hover@2x.png in Resources */,
+				1086A3B92110590E0004D5B7 /* openHistory@2x.png in Resources */,
+				1086A3A92110590E0004D5B7 /* delete@2x.png in Resources */,
+				1086A3B42110590E0004D5B7 /* add_hover@2x.png in Resources */,
+				1086A3A62110590E0004D5B7 /* history_hover@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64DD9722C207E477ACB63EEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-spotify converter/Pods-spotify converter-frameworks.sh",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-spotify converter/Pods-spotify converter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4864BD57ABE3AE133E6904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-spotify converter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CF1AA8211040A1000E2B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D3EBC5211C216000E7E134 /* CheckboxTableHeaderCell.m in Sources */,
+				10C31476212BE05500432B37 /* DropView.m in Sources */,
+				1086A3DD211066F90004D5B7 /* MGuideView.m in Sources */,
+				1086A3E3211066F90004D5B7 /* PreferenceWindowController.m in Sources */,
+				1086A3DE211066F90004D5B7 /* DurationToStringTransformer.m in Sources */,
+				1086A3E1211066F90004D5B7 /* AppController.m in Sources */,
+				1086A3E0211066F90004D5B7 /* BackgroundView.m in Sources */,
+				1086A3C1211066D70004D5B7 /* INAppStoreWindow.m in Sources */,
+				10CF1AB9211040A1000E2B5D /* main.m in Sources */,
+				1086A3C2211066D70004D5B7 /* INWindowButton.m in Sources */,
+				1086A3E2211066F90004D5B7 /* MTableView.m in Sources */,
+				1086A3DF211066F90004D5B7 /* HistoryWindowController.m in Sources */,
+				1086A403211176A70004D5B7 /* SpotifyAddWindowController.m in Sources */,
+				1086A3DB211066F90004D5B7 /* NSAlertSynchronousSheet.m in Sources */,
+				1086A3D9211066F90004D5B7 /* RSVerticallyCenteredTextFieldCell.m in Sources */,
+				1086A3DA211066F90004D5B7 /* SystemComm.m in Sources */,
+				1086A3DC211066F90004D5B7 /* ProgressWindowController.m in Sources */,
+				10CF1AB1211040A1000E2B5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1086A3E42110670B0004D5B7 /* HistoryItem.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1086A3E52110670B0004D5B7 /* Base */,
+			);
+			name = HistoryItem.xib;
+			sourceTree = "<group>";
+		};
+		1086A3E62110670B0004D5B7 /* HistoryWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1086A3E72110670B0004D5B7 /* Base */,
+			);
+			name = HistoryWindow.xib;
+			sourceTree = "<group>";
+		};
+		1086A3E82110670B0004D5B7 /* PreferenceWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1086A3E92110670B0004D5B7 /* Base */,
+			);
+			name = PreferenceWindow.xib;
+			sourceTree = "<group>";
+		};
+		1086A3EA2110670B0004D5B7 /* ProgressWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1086A3EB2110670B0004D5B7 /* Base */,
+			);
+			name = ProgressWindow.xib;
+			sourceTree = "<group>";
+		};
+		1086A3EC2110670C0004D5B7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1086A3ED2110670C0004D5B7 /* Base */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1086A3F6211067170004D5B7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1086A3F5211067170004D5B7 /* Base */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1086A3FB211067470004D5B7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1086A3FA211067470004D5B7 /* en */,
+				1086A3FC2110674F0004D5B7 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		10D3EBBD211C17A900E7E134 /* SpotifyAddWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D3EBBC211C17A900E7E134 /* Base */,
+			);
+			name = SpotifyAddWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10CF1ABB211040A1000E2B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10CF1ABC211040A1000E2B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10CF1ABE211040A1000E2B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661796CAC45BCD903C48D350 /* Pods-spotify converter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RUSH3G7FN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"${PODS_ROOT}/Sparkle\"",
+				);
+				INFOPLIST_FILE = "spotify converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firefury.spotify-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		10CF1ABF211040A1000E2B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D428CEEE4F783EF164B33C3F /* Pods-spotify converter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RUSH3G7FN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"${PODS_ROOT}/Sparkle\"",
+				);
+				INFOPLIST_FILE = "spotify converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firefury.spotify-converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CF1AA7211040A1000E2B5D /* Build configuration list for PBXProject "spotify converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CF1ABB211040A1000E2B5D /* Debug */,
+				10CF1ABC211040A1000E2B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CF1ABD211040A1000E2B5D /* Build configuration list for PBXNativeTarget "spotify converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CF1ABE211040A1000E2B5D /* Debug */,
+				10CF1ABF211040A1000E2B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10CF1AA4211040A1000E2B5D /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_spotify_converter {
+  umbrella header "Pods-spotify converter-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,45 @@
+/* Menu Item for Release Help */
+"%@ Help" = "%@ Help";
+
+/* Menu Item for Release About */
+"About %@" = "About %@";
+
+/* Menu Item Label for Check Update */
+"Check for Updates..." = "Check for Updates...";
+
+/* Menu Item Label for Email */
+"Email Support" = "Email Support";
+
+/* Menu Item Hide Release App */
+"Hide %@" = "Hide %@";
+
+/* Message Text for Registration Failure */
+"Invalid Registration Information!" = "Invalid Registration Information!";
+
+/* Menu Item for Order */
+"Order Now" = "Order Now";
+
+/* Menu Item for Quit Release App */
+"Quit %@" = "Quit %@";
+
+/* Menu Item Label for FAQ */
+"Read FAQ" = "Read FAQ";
+
+/* Menu Item Label for Online Help */
+"Read Online Help" = "Read Online Help";
+
+/* Message Text for Registration Successful */
+"Registration Successful!" = "Registration Successful!";
+
+/* Menu Item Label for Registration */
+"Registration..." = "Registration...";
+
+/* Information Text for Registration Failure */
+"Simple copy and paste your email address and product key exactly as it appears in the confirmation email." = "Simple copy and paste your email address and product key exactly as it appears in the confirmation email.";
+
+/* Information Text for Registration Successful */
+"Thank you for purchase, if you have any problem, please contact us via Email." = "Thank you for purchase, if you have any problem, please contact us via Email.";
+
+/* Menu Item for WebSite */
+"Visit WebSite" = "Visit Website";
+

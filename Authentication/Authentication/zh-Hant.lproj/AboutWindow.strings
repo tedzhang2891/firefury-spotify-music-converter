@@ -1,0 +1,6 @@
+
+/* Class = "NSTextFieldCell"; placeholderString = "AppVersion"; ObjectID = "6"; */
+"6.placeholderString" = "軟件版本";
+
+/* Class = "NSTextFieldCell"; placeholderString = "AppName"; ObjectID = "19"; */
+"19.placeholderString" = "軟件名稱";

@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Enter License Code"; ObjectID = "3"; */
+"3.title" = "Inserire il codice di licenza";
+
+/* Class = "NSTextFieldCell"; title = "%@ is a shareware which requires a paid license to unlock all the features. "; ObjectID = "8"; */
+"8.title" = "%@ è uno shareware che richiede una licenza a pagamento per sbloccare tutte le caratteristiche. ";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "10"; */
+"10.title" = "Scatola";
+
+/* Class = "NSTextFieldCell"; title = "E-Mail :"; ObjectID = "12"; */
+"12.title" = "E-Mail :";
+
+/* Class = "NSTextFieldCell"; title = "Product Key :"; ObjectID = "14"; */
+"14.title" = "Product Key :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "enter your e-mail"; ObjectID = "16"; */
+"16.placeholderString" = "Inserisci il tuo indirizzo email";
+
+/* Class = "NSTextFieldCell"; placeholderString = "enter your product key"; ObjectID = "18"; */
+"18.placeholderString" = "Inserisci il tuo codice prodotto";
+
+/* Class = "NSTextFieldCell"; title = "The UserID must match the one in your registration e-mail"; ObjectID = "20"; */
+"20.title" = "L'ID utente deve corrispondere a quello della tua registrazione e-mail";
+
+/* Class = "NSButtonCell"; title = "Buy Online"; ObjectID = "22"; */
+"22.title" = "Acquista online";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "24"; */
+"24.title" = "Registro";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "26"; */
+"26.title" = "Annulla";

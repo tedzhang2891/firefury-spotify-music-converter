@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Enter License Code"; ObjectID = "3"; */
+"3.title" = "输入注册码";
+
+/* Class = "NSTextFieldCell"; title = "%@ is a shareware which requires a paid license to unlock all the features. "; ObjectID = "8"; */
+"8.title" = "%@ 是一个共享软件，需要购买license解锁所有功能。 ";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "10"; */
+"10.title" = "框";
+
+/* Class = "NSTextFieldCell"; title = "E-Mail :"; ObjectID = "12"; */
+"12.title" = "邮箱 :";
+
+/* Class = "NSTextFieldCell"; title = "Product Key :"; ObjectID = "14"; */
+"14.title" = "产品密钥 :";
+
+/* Class = "NSTextFieldCell"; placeholderString = "enter your e-mail"; ObjectID = "16"; */
+"16.placeholderString" = "输入您的电子邮箱";
+
+/* Class = "NSTextFieldCell"; placeholderString = "enter your product key"; ObjectID = "18"; */
+"18.placeholderString" = "输入您的产品密钥";
+
+/* Class = "NSTextFieldCell"; title = "The UserID must match the one in your registration e-mail"; ObjectID = "20"; */
+"20.title" = "用户ID必须和您注册码邮件信息匹配";
+
+/* Class = "NSButtonCell"; title = "Buy Online"; ObjectID = "22"; */
+"22.title" = "在线购买";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "24"; */
+"24.title" = "注册";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "26"; */
+"26.title" = "取消";

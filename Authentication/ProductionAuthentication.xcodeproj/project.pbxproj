@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1047E8182052769A00F7F87A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1047E8162052769A00F7F87A /* Localizable.strings */; };
+		1047E81D205276D100F7F87A /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1047E819205276D100F7F87A /* AboutWindow.xib */; };
+		10578B8B204FB98E00396008 /* Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 10578B89204FB98E00396008 /* Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10578B93204FBA0200396008 /* ProductController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10578B91204FBA0200396008 /* ProductController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10578B94204FBA0200396008 /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10578B92204FBA0200396008 /* ProductController.m */; };
+		10578B98204FBAF400396008 /* AboutWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10578B95204FBAF400396008 /* AboutWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10578B99204FBAF400396008 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10578B96204FBAF400396008 /* AboutWindowController.m */; };
+		10578B9D204FBB5C00396008 /* RegisterWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 10578B9B204FBB5C00396008 /* RegisterWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10578B9E204FBB5C00396008 /* RegisterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10578B9C204FBB5C00396008 /* RegisterWindowController.m */; };
+		108CAE1C20590E8200481AC0 /* RegCodeController.h in Headers */ = {isa = PBXBuildFile; fileRef = 108CAE1A20590E8200481AC0 /* RegCodeController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		108CAE1D20590E8200481AC0 /* RegCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108CAE1B20590E8200481AC0 /* RegCodeController.m */; };
+		10BC99482059538500E36F70 /* RegisterWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1047E81B205276D100F7F87A /* RegisterWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10578BA8204FBE7A00396008 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1047E8172052769A00F7F87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Authentication/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E81A205276D100F7F87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AboutWindow.xib; sourceTree = "<group>"; };
+		1047E81C205276D100F7F87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RegisterWindow.xib; sourceTree = "<group>"; };
+		1047E81F205276E900F7F87A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E821205276E900F7F87A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Authentication/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E8222052770A00F7F87A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E8232052770A00F7F87A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E8242052770B00F7F87A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = Authentication/da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E8252052772000F7F87A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E8262052772000F7F87A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E8272052772000F7F87A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Authentication/de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E8282052772E00F7F87A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E8292052772E00F7F87A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E82A2052772F00F7F87A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Authentication/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E82B2052773400F7F87A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E82C2052773500F7F87A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E82D2052773500F7F87A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Authentication/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E82E2052773A00F7F87A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E82F2052773A00F7F87A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E8302052773A00F7F87A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Authentication/it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E8312052773E00F7F87A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E8322052773E00F7F87A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E8332052773E00F7F87A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Authentication/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E8342052774500F7F87A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E8352052774500F7F87A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E8362052774500F7F87A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Authentication/nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E8372052776100F7F87A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/AboutWindow.strings; sourceTree = "<group>"; };
+		1047E8382052776100F7F87A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+		1047E8392052776100F7F87A /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = Authentication/pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1047E83A2052776B00F7F87A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/AboutWindow.strings"; sourceTree = "<group>"; };
+		1047E83B2052776B00F7F87A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/RegisterWindow.strings"; sourceTree = "<group>"; };
+		1047E83C2052776B00F7F87A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "Authentication/pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1047E83D2052777100F7F87A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AboutWindow.strings"; sourceTree = "<group>"; };
+		1047E83E2052777100F7F87A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RegisterWindow.strings"; sourceTree = "<group>"; };
+		1047E83F2052777100F7F87A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Authentication/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1047E8402052777700F7F87A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AboutWindow.strings"; sourceTree = "<group>"; };
+		1047E8412052777700F7F87A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/RegisterWindow.strings"; sourceTree = "<group>"; };
+		1047E8422052777700F7F87A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Authentication/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10577BBF2050DFFE00933023 /* encryptAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encryptAlgorithm.h; sourceTree = "<group>"; };
+		10578B86204FB98E00396008 /* ProductionAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProductionAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10578B89204FB98E00396008 /* Authentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
+		10578B8A204FB98E00396008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10578B91204FBA0200396008 /* ProductController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductController.h; sourceTree = "<group>"; };
+		10578B92204FBA0200396008 /* ProductController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductController.m; sourceTree = "<group>"; };
+		10578B95204FBAF400396008 /* AboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutWindowController.h; sourceTree = "<group>"; };
+		10578B96204FBAF400396008 /* AboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutWindowController.m; sourceTree = "<group>"; };
+		10578B9B204FBB5C00396008 /* RegisterWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterWindowController.h; sourceTree = "<group>"; };
+		10578B9C204FBB5C00396008 /* RegisterWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterWindowController.m; sourceTree = "<group>"; };
+		108CAE1A20590E8200481AC0 /* RegCodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegCodeController.h; sourceTree = "<group>"; };
+		108CAE1B20590E8200481AC0 /* RegCodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegCodeController.m; sourceTree = "<group>"; };
+		10BC99472059532400E36F70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RegisterWindow.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10578B82204FB98E00396008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10578B7C204FB98E00396008 = {
+			isa = PBXGroup;
+			children = (
+				1047E8162052769A00F7F87A /* Localizable.strings */,
+				10578B88204FB98E00396008 /* Authentication */,
+				10578B87204FB98E00396008 /* Products */,
+				10578BA3204FBC0800396008 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10578B87204FB98E00396008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10578B86204FB98E00396008 /* ProductionAuthentication.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10578B88204FB98E00396008 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				1047E819205276D100F7F87A /* AboutWindow.xib */,
+				1047E81B205276D100F7F87A /* RegisterWindow.xib */,
+				10578B89204FB98E00396008 /* Authentication.h */,
+				10578B8A204FB98E00396008 /* Info.plist */,
+				10578B91204FBA0200396008 /* ProductController.h */,
+				10578B92204FBA0200396008 /* ProductController.m */,
+				10578B95204FBAF400396008 /* AboutWindowController.h */,
+				10578B96204FBAF400396008 /* AboutWindowController.m */,
+				10578B9B204FBB5C00396008 /* RegisterWindowController.h */,
+				10578B9C204FBB5C00396008 /* RegisterWindowController.m */,
+				10577BBF2050DFFE00933023 /* encryptAlgorithm.h */,
+				108CAE1A20590E8200481AC0 /* RegCodeController.h */,
+				108CAE1B20590E8200481AC0 /* RegCodeController.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		10578BA3204FBC0800396008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10578B83204FB98E00396008 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108CAE1C20590E8200481AC0 /* RegCodeController.h in Headers */,
+				10578B93204FBA0200396008 /* ProductController.h in Headers */,
+				10578B9D204FBB5C00396008 /* RegisterWindowController.h in Headers */,
+				10578B8B204FB98E00396008 /* Authentication.h in Headers */,
+				10578B98204FBAF400396008 /* AboutWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10578B85204FB98E00396008 /* ProductionAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10578B8E204FB98E00396008 /* Build configuration list for PBXNativeTarget "ProductionAuthentication" */;
+			buildPhases = (
+				10578B81204FB98E00396008 /* Sources */,
+				10578B82204FB98E00396008 /* Frameworks */,
+				10578B83204FB98E00396008 /* Headers */,
+				10578B84204FB98E00396008 /* Resources */,
+				10578BA8204FBE7A00396008 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProductionAuthentication;
+			productName = Authentication;
+			productReference = 10578B86204FB98E00396008 /* ProductionAuthentication.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10578B7D204FB98E00396008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = firefury;
+				TargetAttributes = {
+					10578B85204FB98E00396008 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10578B80204FB98E00396008 /* Build configuration list for PBXProject "ProductionAuthentication" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				da,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
+				pl,
+				"pt-BR",
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 10578B7C204FB98E00396008;
+			productRefGroup = 10578B87204FB98E00396008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10578B85204FB98E00396008 /* ProductionAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10578B84204FB98E00396008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1047E8182052769A00F7F87A /* Localizable.strings in Resources */,
+				1047E81D205276D100F7F87A /* AboutWindow.xib in Resources */,
+				10BC99482059538500E36F70 /* RegisterWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10578B81204FB98E00396008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10578B94204FBA0200396008 /* ProductController.m in Sources */,
+				10578B99204FBAF400396008 /* AboutWindowController.m in Sources */,
+				10578B9E204FBB5C00396008 /* RegisterWindowController.m in Sources */,
+				108CAE1D20590E8200481AC0 /* RegCodeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1047E8162052769A00F7F87A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1047E8172052769A00F7F87A /* Base */,
+				1047E821205276E900F7F87A /* en */,
+				1047E8242052770B00F7F87A /* da */,
+				1047E8272052772000F7F87A /* de */,
+				1047E82A2052772F00F7F87A /* es */,
+				1047E82D2052773500F7F87A /* fr */,
+				1047E8302052773A00F7F87A /* it */,
+				1047E8332052773E00F7F87A /* ja */,
+				1047E8362052774500F7F87A /* nl */,
+				1047E8392052776100F7F87A /* pl */,
+				1047E83C2052776B00F7F87A /* pt-BR */,
+				1047E83F2052777100F7F87A /* zh-Hans */,
+				1047E8422052777700F7F87A /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1047E819205276D100F7F87A /* AboutWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1047E81A205276D100F7F87A /* Base */,
+				1047E81F205276E900F7F87A /* en */,
+				1047E8222052770A00F7F87A /* da */,
+				1047E8252052772000F7F87A /* de */,
+				1047E8282052772E00F7F87A /* es */,
+				1047E82B2052773400F7F87A /* fr */,
+				1047E82E2052773A00F7F87A /* it */,
+				1047E8312052773E00F7F87A /* ja */,
+				1047E8342052774500F7F87A /* nl */,
+				1047E8372052776100F7F87A /* pl */,
+				1047E83A2052776B00F7F87A /* pt-BR */,
+				1047E83D2052777100F7F87A /* zh-Hans */,
+				1047E8402052777700F7F87A /* zh-Hant */,
+			);
+			name = AboutWindow.xib;
+			sourceTree = "<group>";
+		};
+		1047E81B205276D100F7F87A /* RegisterWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1047E81C205276D100F7F87A /* Base */,
+				1047E8232052770A00F7F87A /* da */,
+				1047E8262052772000F7F87A /* de */,
+				1047E8292052772E00F7F87A /* es */,
+				1047E82C2052773500F7F87A /* fr */,
+				1047E82F2052773A00F7F87A /* it */,
+				1047E8322052773E00F7F87A /* ja */,
+				1047E8352052774500F7F87A /* nl */,
+				1047E8382052776100F7F87A /* pl */,
+				1047E83B2052776B00F7F87A /* pt-BR */,
+				1047E83E2052777100F7F87A /* zh-Hans */,
+				1047E8412052777700F7F87A /* zh-Hant */,
+				10BC99472059532400E36F70 /* en */,
+			);
+			name = RegisterWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10578B8C204FB98E00396008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10578B8D204FB98E00396008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10578B8F204FB98E00396008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RUSH3G7FN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../Pods/Sparkle",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Authentication/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firefury.Authentication;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		10578B90204FB98E00396008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6RUSH3G7FN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../Pods/Sparkle",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Authentication/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firefury.Authentication;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10578B80204FB98E00396008 /* Build configuration list for PBXProject "ProductionAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10578B8C204FB98E00396008 /* Debug */,
+				10578B8D204FB98E00396008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10578B8E204FB98E00396008 /* Build configuration list for PBXNativeTarget "ProductionAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10578B8F204FB98E00396008 /* Debug */,
+				10578B90204FB98E00396008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10578B7D204FB98E00396008 /* Project object */;
+}
